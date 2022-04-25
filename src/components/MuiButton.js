@@ -1,4 +1,4 @@
-import { Button, IconButton, Stack } from '@mui/material'
+import { Button, ButtonGroup, IconButton, Stack } from '@mui/material'
 import React from 'react'
 import SendIcon from '@mui/icons-material/Send';
 
@@ -27,6 +27,13 @@ function MuiButton() {
             <Button variant='contained' startIcon={<SendIcon />} disableRipple={true} >send</Button>
             <Button variant='contained' endIcon={<SendIcon />} disableElevation={true} >send</Button>
             <IconButton aria-label='send' size='small' color='success' ><SendIcon /></IconButton>
+        </Stack>
+        <Stack direction="row">
+            <ButtonGroup variant="contained" orientation='vertical' size='small' color='secondary' aria-label='alignment button group'>
+                <Button>Left</Button>
+                <Button>Center</Button>
+                <Button>Right</Button>
+            </ButtonGroup>
         </Stack>
     </Stack>
   )
