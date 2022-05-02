@@ -11,6 +11,7 @@ import MuiReaction from "./components/MuiReaction";
 import MuiAutocomplete from "./components/MuiAutocomplete";
 import MuiLayout from "./components/MuiLayout";
 import MuiCard from "./components/MuiCard";
+import MuiAccordion from "./components/MuiAccordion";
 
 function App() {
   return (
@@ -26,7 +27,8 @@ function App() {
       {/* <MuiReaction /> */}
       {/* <MuiAutocomplete /> */}
       {/* <MuiLayout /> */}
-      <MuiCard />
+      {/* <MuiCard /> */}
+      <MuiAccordion />
     </div>
   );
 }
