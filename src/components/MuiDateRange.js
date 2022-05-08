@@ -1,4 +1,4 @@
-import { DateRangePicker } from "@mui/x-date-pickers-pro/DateRangePicker";
+import { DateRangePicker } from "@mui/lab";
 import { Box, TextField } from "@mui/material";
 import React, { useState } from "react";
 
