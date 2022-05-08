@@ -36,6 +36,7 @@ import { AdapterDateFns } from "@mui/x-date-pickers/AdapterDateFns";
 import MuiPicker from "./components/MuiPicker";
 import MuiDateRange from "./components/MuiDateRange";
 import MuiTabs from "./components/MuiTabs";
+import MuiTimeline from "./components/MuiTimeline";
 
 function App() {
   return (
@@ -75,7 +76,8 @@ function App() {
         {/* <MuiLoadingButton /> */}
         {/* <MuiPicker /> */}
         {/* <MuiDateRange /> */}
-        <MuiTabs />
+        {/* <MuiTabs /> */}
+        <MuiTimeline />
       </div>
     </LocalizationProvider>
   );
