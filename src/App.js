@@ -38,6 +38,7 @@ import MuiDateRange from "./components/MuiDateRange";
 import MuiTabs from "./components/MuiTabs";
 import MuiTimeline from "./components/MuiTimeline";
 import MuiMasonry from "./components/MuiMasonry";
+import MuiResponsive from "./components/MuiResponsive";
 
 function App() {
   return (
@@ -79,7 +80,8 @@ function App() {
         {/* <MuiDateRange /> */}
         {/* <MuiTabs /> */}
         {/* <MuiTimeline /> */}
-        <MuiMasonry />
+        {/* <MuiMasonry /> */}
+        <MuiResponsive />
       </div>
     </LocalizationProvider>
   );
